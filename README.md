@@ -24,7 +24,6 @@ The script parses a local HTML file, extracts key details like product names, pr
 ## E-commerce Web Scraper - Output Screenshots
 Here are some sample screenshots of the E-commerce Web Scraper project:
 
-*(To add your own screenshots, place them in an `images` folder in your repository and update the paths below)*
 
 ![Screenshot of the mock e-commerce website](images/scraper-website.png)
 
