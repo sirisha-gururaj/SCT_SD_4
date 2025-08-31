@@ -17,7 +17,7 @@ The script parses a local HTML file, extracts key details like product names, pr
 -   **Robust Parsing**: Gracefully handles missing information, such as a product without a rating.
 -   **Self-Contained Demo**: Includes a stylish mock e-commerce page so the scraper can be tested immediately.
 -   **Clean & Commented Code**: The Python script is easy to understand, making it perfect for learning.
--   **Separation of Concerns**: The mock website's structure (HTML) and design (CSS) are kept in separate files.
+-   **Separation of Concerns**: The mock website's structure (HTML) is kept in separate file.
 
 ---
 
@@ -44,9 +44,9 @@ Here are some sample screenshots of the E-commerce Web Scraper project:
     git clone <your-repository-url>
     cd <your-repository-folder>
     ```
-    Alternatively, create a new folder and add three files: `mock_products.html`, `style.css`, and `web_scraper.py`.
+    Alternatively, create a new folder and add three files: `mock_products.html` and `web_scraper.py`.
 
-2.  **Add the Code**: Ensure the complete code for each of the three files is in its respective file.
+2.  **Add the Code**: Ensure the complete code for each of the two files is in its respective file.
 
 3.  **Install Dependencies**: Open your terminal or command prompt and install the required Python library using pip.
     ```bash
