@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gadget Grove - Mock E-commerce</title>
+    <!-- Tailwind CSS CDN for rapid styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* A simple font for better readability */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Header Section -->
+    <header class="bg-white shadow-md">
+        <div class="container mx-auto px-6 py-4">
+            <h1 class="text-3xl font-bold text-gray-800">Gadget Grove 🛒</h1>
+            <p class="text-gray-600">Your one-stop shop for the latest tech</p>
+        </div>
+    </header>
+
+    <!-- Main Content: Product Grid -->
+    <main class="container mx-auto px-6 py-8">
+        <h2 class="text-2xl font-semibold text-gray-700 mb-6">Featured Products</h2>
+
+        <!-- Grid container for product cards -->
+        <div id="product-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+
+            <!-- Product Card 1 -->
+            <div class="product-card bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                <img src="https://images.pexels.com/photos/1334602/pexels-photo-1334602.jpeg" alt="Smartwatch" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="product-name text-lg font-semibold text-gray-800 mb-2">Smartwatch Series 7</h3>
+                    <p class="product-price text-xl font-bold text-indigo-600 mb-4">₹399.99</p>
+                    <div class="product-rating flex items-center">
+                        <span class="text-yellow-500">★★★★☆</span>
+                        <span class="text-gray-600 ml-2">(4.8 stars)</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Card 2 -->
+            <div class="product-card bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                <img src="https://images.pexels.com/photos/3780681/pexels-photo-3780681.jpeg" alt="Wireless Earbuds" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="product-name text-lg font-semibold text-gray-800 mb-2">Wireless Earbuds Pro</h3>
+                    <p class="product-price text-xl font-bold text-indigo-600 mb-4">₹199.00</p>
+                    <div class="product-rating flex items-center">
+                        <span class="text-yellow-500">★★★★☆</span>
+                        <span class="text-gray-600 ml-2">(4.5 stars)</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Card 3 -->
+            <div class="product-card bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                <img src="https://images.pexels.com/photos/38568/apple-imac-ipad-workplace-38568.jpeg" alt="4K Monitor" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="product-name text-lg font-semibold text-gray-800 mb-2">4K HDR Monitor</h3>
+                    <p class="product-price text-xl font-bold text-indigo-600 mb-4">₹650.50</p>
+                    <div class="product-rating flex items-center">
+                        <span class="text-yellow-500">★★★★★</span>
+                        <span class="text-gray-600 ml-2">(4.9 stars)</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Card 4 (Missing rating to test scraper robustness) -->
+            <div class="product-card bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
+                <img src="https://images.pexels.com/photos/163117/keyboard-white-computer-keyboard-desktop-163117.jpeg" alt="Mechanical Keyboard" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="product-name text-lg font-semibold text-gray-800 mb-2">Mechanical Keyboard</h3>
+                    <p class="product-price text-xl font-bold text-indigo-600 mb-4">₹120.00</p>
+                    <!-- No product-rating div here -->
+                </div>
+            </div>
+
+        </div>
+    </main>
+</body>
+</html>
+
